@@ -1,14 +1,14 @@
-# I will restart my neovim configuration from scratch, to a better organized and clean build. CUrrently I'm ussing the "vim" regular format on my configuration file and formatting, and recently came across the lua language and how to implemented on neovim for better/faster/clean workflow, aldo I'm using "vim-plug" for the plugins and some of those plugins are only for vim and other ones just for neovim and I hate to see error messages pop up, so I decided to start from scratch and exclusively only use neovim.
+### I will start over my neovim configuration from scratch, to a better organized and clean build. Crrently I'm ussing the "vim" regular format on my configuration file and formatting, and recently came across the lua language and how to implemented on neovim for better/faster/clean workflow, aldo I'm using "vim-plug" for the plugins and some of those plugins are only for vim and other ones just for neovim and I hate to see error messages pop up, so I decided to start from scratch and exclusively only use neovim.
 
-# I'll push my old and new configuration files so they will be available if anyone wishes to compare and/or finds them useful. They are not that long so dont expect to find thousands of line on the configuration files or many plugins, from personal experience it only slows down or creates lots of error messaging when writing.
+### I'll push my old and new configuration files so they will be available if anyone wishes to compare and/or finds them useful. They are not that long so dont expect to find thousands of line on the configuration files or many plugins, from personal experience it only slows down or creates lots of error messaging when writing.
 
-# Directory Tree for Neovim and Lua Workflow
+### Directory Tree for Neovim and Lua Workflow
 
-## First of all and to clarify, I'll not be working or coding in lua, the intention right here is to make use of this light weight language, syntax and common structure to take my regular text editor from just being a simple text editor into an almost IDE, having that in mind let's continue. So in using lua language needs a structure and syntax, like all other coding/programming languages but lua is very simple to give stracture and enables the user/developer to further create a more extensible framework to code with or edit.
+#### First of all and to clarify, I'll not be working or coding in lua, the intention right here is to make use of this light weight language, syntax and common structure to take my regular text editor from just being a simple text editor into an almost IDE, having that in mind let's continue. So in using lua language needs a structure and syntax, like all other coding/programming languages but lua is very simple to give stracture and enables the user/developer to further create a more extensible framework to code with or edit.
 
-## Structure Directory
+### Structure Directory
 
-## In order to create or extend capabilities of the tet editor we already have into something more powerfull we need to separate key parts what is now the edtiro to take out weight of calls and system tasks we put the editor to, a simple way is to fracture the parts of the whole "engine" to make them smaller and by doing that the work load gets distributed and as a result will be auto managed. Directory  layout/tree:
+#### In order to create or extend capabilities of the tet editor we already have into something more powerfull we need to separate key parts what is now the edtiro to take out weight of calls and system tasks we put the editor to, a simple way is to fracture the parts of the whole "engine" to make them smaller and by doing that the work load gets distributed and as a result will be auto managed. Directory  layout/tree:
 
 1. Origin Directory, this will be the directory and global place where all will be administrated to pass on tasks or calls to make use of other parts. this directory cannot be mispalced or changed and will always need to be at "$HOME/.config/nvim"
 
