@@ -32,6 +32,9 @@
 
 6. And add some key bindings or key mappings here are some examples read them to get the idea of how the syntax is done and create your own:
 
-** vim.api.nvim_set_keymap('n', '<Space>', '<NOP>', { noremap = true, silent = true })
-** vim.g.mapleader = " "
-** vim.api.nvim_set_keymap('n', '<Leader>h', ':set hlsearch<CR>', { noremap = true, silent = true })
+** echo "vim.api.nvim_set_keymap('n', '<Space>', '<NOP>', { noremap = true, silent = true })" >> $HOME/.config/nvim/lua/plugins.lua
+** echo "vim.g.mapleader = ' '" >> $HOME/.config/nvim/lua/plugins.lua
+
+** eecho "vim.api.nvim_set_keymap('n', '<Leader>h', ':set hlsearch<CR>', { noremap = true, silent = true })" >> $HOME/.config/nvim/lua/plugins.lua
+
+### I've pushed a very very small simple script to automate the deployment of the directories and files and also takes care of permissions and ownership, DO NOT RUN IT ASA ROOT! , just make it executable and run it, it just makes use of "mkdir" and "touch" commands.
